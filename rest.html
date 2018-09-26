@@ -7,7 +7,7 @@ function UserAction() {
              alert(this.responseText);
          }
     };
-    xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos/1", true);
+    xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos", true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.send("Your JSON Data Here");
 }
